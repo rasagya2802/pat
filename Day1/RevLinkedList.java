@@ -37,6 +37,7 @@ public static class Node{
         }
     }
 
+    //logic
     static void reverse()
     {
         Node curr = head;

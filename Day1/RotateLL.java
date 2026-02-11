@@ -44,6 +44,7 @@ public static class Node{
         }
     }
 
+    //logic
     static void roatate(int k)
     {
         int length = 1;

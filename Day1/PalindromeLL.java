@@ -42,6 +42,7 @@ public static class Node{
         }
     }
 
+    //logic
     static void palindrome()
     {
         //finding mid node

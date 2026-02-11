@@ -42,6 +42,8 @@ public static class Node{
         }
     }
 
+
+    //logic
     static void displayMiddle()
     {
         Node fast = head;
