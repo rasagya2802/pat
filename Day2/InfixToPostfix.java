@@ -3,6 +3,10 @@ package Day2;
 import java.util.Scanner;
 import java.util.Stack;
 //postfix is also known as reversepolish
+//infix is also known as polish
+//check leetcode evalrpn question
+//check leetcode question 224
+//leetcode 678, 155
 
 public class InfixToPostfix {
     public static void main(String[] args) {
