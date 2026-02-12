@@ -1,7 +1,7 @@
 package Day2;
 import java.util.Scanner;
 
-public class SortBitonicDll {
+public class SortBiotonicDll {
         public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
