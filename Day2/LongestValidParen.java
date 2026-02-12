@@ -1,5 +1,6 @@
-import java.util.*;
+package Day2;
 
+import java.util.*;
 //leetcode style
 //leetcode question number 148
 class longestValidParan {
@@ -11,7 +12,6 @@ class longestValidParan {
         int maxLength = 0;
 
         for (int i = 0; i < s.length(); i++) {
-
             if (s.charAt(i) == '(') stack.push(i);
             else {
                 stack.pop();
