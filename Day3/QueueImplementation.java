@@ -1,7 +1,5 @@
 package Day3;
 
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Scanner;
 
 
@@ -19,7 +17,10 @@ import java.util.Scanner;
 
 
 public class QueueImplementation {
-    Scanner sc = new Scanner(System.in);
-    Queue<Integer> queue = new LinkedList<>();
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        
+    }
     
 }
