@@ -1,4 +1,3 @@
-package Day3;
 import java.util.*;
 
 public class Tree {
@@ -6,8 +5,13 @@ public class Tree {
         Scanner sc = new Scanner(System.in);
         String[] s = sc.nextLine().split(" ");
         TreeNode root = insert(s);
+        System.out.print("Inorder: ");
         inorder(root);
+        System.out.println();
+        System.out.print("Preorder: ");
         preorder(root);
+        System.out.println();
+        System.out.print("Postorder: ");
         postorder(root);
     }
 
