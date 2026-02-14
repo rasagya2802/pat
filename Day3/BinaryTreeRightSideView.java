@@ -10,7 +10,10 @@ public class BinaryTreeRightSideView {
         Scanner sc = new Scanner(System.in);
         String[] s = sc.nextLine().split(" ");
         TreeNode root = insert(s);
-        System.out.print("Right side view: ");
+        System.out.println("Right side view with recursion: ");
+        rightSideViewRecursive(root);
+        System.out.println();
+        System.out.print("Right side view with iteration: ");
         rightSideView(root);
     }
 
