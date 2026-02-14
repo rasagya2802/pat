@@ -1,3 +1,4 @@
+package Day4;
 import java.util.*;
 import java.util.LinkedList;
 
@@ -55,7 +56,7 @@ public static TreeNode insert(String[] s) {
  }
 
     static int treeHeight(TreeNode root) {
-        if (root == null) return 0;
+        if (root == null) return -1;
         int leftHeight = treeHeight(root.left);
         int rightHeight = treeHeight(root.right);
         return Math.max(leftHeight, rightHeight) + 1;
