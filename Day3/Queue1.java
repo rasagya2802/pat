@@ -1,4 +1,3 @@
-package Day3;
 import java.util.ArrayDeque;
 import java.util.Scanner;
 public class Queue1 {

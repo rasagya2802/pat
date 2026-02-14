@@ -1,4 +1,3 @@
-package Day3;
 
 public class StackWithQueue {
     // 2 ways, you can use 2 queues, or 1 queue.

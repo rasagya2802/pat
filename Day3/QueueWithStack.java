@@ -1,4 +1,3 @@
-package Day3;
 
 public class QueueWithStack {
     // Implementing a queue using two stacks

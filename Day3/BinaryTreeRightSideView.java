@@ -2,6 +2,8 @@
 import java.util.Scanner;
 import java.util.Queue;
 import java.util.LinkedList;
+import java.util.List;
+import java.util.ArrayList;
 
 public class BinaryTreeRightSideView {
     public static void main(String[] args) {
@@ -48,6 +50,7 @@ public static class TreeNode {
         return root;
     }
 
+    //with iteration
     public static void rightSideView(TreeNode root) {
         if (root == null) return;
         Queue<TreeNode> queue = new LinkedList<>();
@@ -62,5 +65,24 @@ public static class TreeNode {
             }
         }
     }
+
+    //with recursion 
+    public static void rightSideViewRecursive(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        rightSideViewHelper(root, result, 0);
+        for (int num : result) {
+            System.out.print(num + " ");
+        }
+    }
+
+    private static void rightSideViewHelper(TreeNode root, List<Integer> result, int depth) {
+        if (root == null) return;
+        if (depth == result.size()) {
+            result.add(root.val);
+        }
+        rightSideViewHelper(root.right, result, depth + 1);
+        rightSideViewHelper(root.left, result, depth + 1);
+    }
+
 
 }

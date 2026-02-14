@@ -1,5 +1,5 @@
-package Day3;
 import java.util.*;
+import java.util.LinkedList;
 
 public class Tree {
     public static void main(String[] args) {
