@@ -1,6 +1,9 @@
 
 import java.util.*;
 
+//leetcode 1791
+//leetcode 200
+//leetcode 130
 public class Graph {
     static List<Integer> adj[];
     public static void main(String[] args) {
@@ -13,7 +16,9 @@ public class Graph {
             int d = sc.nextInt();
             insert(s, d);
         }
+        System.out.print("BFS Traversal: ");
         bfs(V,0);
+        System.out.print("\nDFS Traversal: ");
         dfs(V,0);
     }
 
