@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
 //leetcode 204
+//leetcode 1780
+//leetcode 3770
+//leetcode 202
+
 public class Main {
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
@@ -18,3 +22,4 @@ public static void main(String[] args) {
         if (p[i]) System.out.print(i + " ");
   }
 }
+
