@@ -4,6 +4,8 @@ import java.util.Scanner;
 //leetcode 1780
 //leetcode 3770
 //leetcode 202
+//leetcode 2344
+//leetcode 54
 
 public class Main {
 public static void main(String[] args) {
